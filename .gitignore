@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.py.class
+*.so
+
+# Virtual Environments
+venv/
+.env/
+.env.* 
+*.env
+
+# IDEs / Editors
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Byte-compiled / Logs
+*.log
+*.out
+*.pid
+
+# Migrations / Alembic cache
+migrations/versions/*.pyc
+migrations/__pycache__/
+migrations/versions/__pycache__/
+
+# Cache / Coverage
+.cache/
+coverage/
+*.cover
+*.py,cover
+htmlcov/
+
+# Build / Dist
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Docker / Compose
+docker/*.pid
+docker/*.log
+docker-compose.override.yml
+
+# Unit Test Reports
+.pytest_cache/
+junit.xml
+
+# Env / Secrets / Keys
+secrets/
+*.key
+*.pem
+
+# Misc
+celerybeat-schedule
+celerybeat.pid
+instance/
+uploads/
+tmp/

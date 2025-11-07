@@ -1,0 +1,45 @@
+# Core Framework
+fastapi
+uvicorn[standard]
+
+# Database and ORM
+SQLAlchemy
+psycopg2-binary
+alembic
+
+# Async Tools
+httpx
+redis
+celery
+
+# Auth and Security
+python-jose[cryptography]
+passlib[bcrypt]
+bcrypt
+pydantic[email]
+pydantic-settings
+pyjwt
+
+# Background Tasks / Notifications
+email-validator
+python-dotenv
+
+# WebSockets and Realtime
+websockets
+
+# Caching / Rate Limiting
+fastapi-limiter
+
+# Logging & Monitoring
+loguru
+sentry-sdk
+
+# Testing
+pytest
+pytest-asyncio
+httpx
+factory-boy
+
+# Dev utilities
+black
+isort
